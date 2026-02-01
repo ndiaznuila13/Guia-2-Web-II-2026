@@ -16,7 +16,7 @@ export const Header = ({
                         <a href="index.html">
                             <img
                                 className="img-fluid"
-                                src="/img/logo.svg"
+                                src="./img/logo.svg"
                                 alt="imagen logo"
                             />
                         </a>
@@ -25,7 +25,7 @@ export const Header = ({
                         <div className="carrito">
                             <img
                                 className="img-fluid"
-                                src="/img/carrito.png"
+                                src="./img/carrito.png"
                                 alt="imagen carrito"
                             />
 
@@ -51,7 +51,7 @@ export const Header = ({
                                                     <td>
                                                         <img
                                                             className="img-fluid"
-                                                            src={`/img/${guitar.image}.jpg`}
+                                                            src={`./img/${guitar.image}.jpg`}
                                                             alt="imagen guitarra"
                                                         />
                                                     </td>
